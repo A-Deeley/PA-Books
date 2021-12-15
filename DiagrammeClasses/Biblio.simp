@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.11" multi-file="no" uid="simp96e30bd4a2dd4033aa469bfcccb593fe">
+  <meta>
+    <name>Biblio</name>
+    <authors>Raphael Gagnon</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type stereotype="enumeration" type-id="enumeration" type="Enumeration" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface" type="Provided Interface End" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>2095</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>28</value>
+      </counter>
+      <counter>
+        <item-type type-id="enumeration" type="Enumeration" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>17</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>15</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface" type="Provided Interface End" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-provided-interface-connector" type="Provided Interface Connector" />
+        <value>14</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>9</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>90</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-2c317fc1fc6546d1a1ccd813954e96dc" name="" task-id-sequence="0">
+    <working-schedule uid="ws-db3ed03bf1b743bbb7f64f4c10a20c43" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Raphael</first-name>
+        <last-name>Gagnon</last-name>
+        <role />
+        <e-mail>raphaelgagnon@cegep-chicoutimi.qc.ca</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-efde64486c944ad28f6afd61bc5b61db" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-cb84459977c340c9ad57cffbc3d2e234" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-990c370d2bfe47de834a350042ed5fb4" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Void" tid="" name="Void" description="" />
+      <type id="Class:162f941678014798b15e13c5b40b3193" tid="" name="Membre" description="" class-ref="162f941678014798b15e13c5b40b3193" />
+      <type id="Class:b1930b43abb64d0bab002c5496f164f0" tid="" name="Document" description="" class-ref="b1930b43abb64d0bab002c5496f164f0" />
+      <type id="Class:8af9b173d3524b79aa5b547eca3fb0f5" tid="" name="Repertoire" description="" class-ref="8af9b173d3524b79aa5b547eca3fb0f5" />
+      <type id="T" tid="" name="T" description="" />
+      <type id="Documents" tid="" name="Documents" description="" />
+    </custom-types>
+  </types>
+  <items>
+    <item id="6a06720af2de40b48c223a4d5c55c451" cid="IFC001" type="uml-interface" name="IComparable&lt;Document&gt;" style-class="" creation-date="11/27/2020 14:03:36">
+      <interface />
+    </item>
+    <item id="c21ddc19e7d94faa9c282e4a8774e513" cid="ELEM013" type="uml-provided-interface-connector" name="" style-class="" creation-date="11/27/2020 14:03:36" from="b1930b43abb64d0bab002c5496f164f0" to="6a06720af2de40b48c223a4d5c55c451" />
+    <item id="382d5b797c24484e8f53dbc1a05cc2c0" cid="CMT001" type="comment" name="Comment" style-class="" creation-date="11/27/2020 14:53:41">
+      <comment>noMembre = nbMembreTotal
+nbMembresTotal est static. On s'en sert pour savoir combien d'objets de type Membre ont été créées, pour définir un noMembre unique.</comment>
+    </item>
+    <item id="di593c3b91a67946358a43b06ebf67b1549698" cid="CN001" type="comment-connector" name="" style-class="" creation-date="11/27/2020 14:53:41" from="382d5b797c24484e8f53dbc1a05cc2c0" to="162f941678014798b15e13c5b40b3193" />
+    <item id="594548605bd24940aaabbdc66220e9d1" cid="CMT002" type="comment" name="Comment" style-class="" creation-date="11/27/2020 14:54:46">
+      <comment>NotifierEmprunt signifie que l'emprunt s'effectue. Si le livre n'est pas disponible, ajoute le membre à la liste d'attente et retourne False. Sinon, return True.</comment>
+    </item>
+    <item id="di63c6fdeea6eb4f00878194373138fb982336" cid="CN002" type="comment-connector" name="" style-class="" creation-date="11/27/2020 14:54:46" from="594548605bd24940aaabbdc66220e9d1" to="18d3b02d124545d1b1505a156f4a461a" />
+    <item id="c216947d668b495782195c5a5727c839" cid="CMT003" type="comment" name="Comment" style-class="" creation-date="11/27/2020 14:58:32">
+      <comment>AjouterListeAttente devrait retourner True si le membre a été ajouté correctement à la liste. False sinon.</comment>
+    </item>
+    <item id="di007910d668fd46bfa1a131ad1652d98b4554" cid="CN003" type="comment-connector" name="" style-class="" creation-date="11/27/2020 14:58:32" from="c216947d668b495782195c5a5727c839" to="18d3b02d124545d1b1505a156f4a461a" />
+    <item id="b3b2234cf79844d681d458e4cff68552" cid="CMT004" type="comment" name="Comment" style-class="" creation-date="11/27/2020 15:02:14">
+      <comment>listeAttente ne devrait pas contenir plus de 2 membres personnes</comment>
+    </item>
+    <item id="di39460cdd6e5749e89486573e31b4a42c3316" cid="CN004" type="comment-connector" name="" style-class="" creation-date="11/27/2020 15:02:14" from="b3b2234cf79844d681d458e4cff68552" to="b1930b43abb64d0bab002c5496f164f0" />
+    <item id="fe424491f36b4d69a453e753a9b786de" cid="CMT005" type="comment" name="Comment" style-class="" creation-date="11/27/2020 15:03:31">
+      <comment>listeEmprunts ne devrait pas contenir plus de 4 Documents</comment>
+    </item>
+    <item id="dic6aaac8bef3f465bac28c77cc6fb34834288" cid="CN005" type="comment-connector" name="" style-class="" creation-date="11/27/2020 15:03:31" from="fe424491f36b4d69a453e753a9b786de" to="162f941678014798b15e13c5b40b3193" />
+    <item id="53b0402707fc4aac891ce819a15d4d40" cid="CMT006" type="comment" name="Comment" style-class="" creation-date="11/27/2020 15:04:49">
+      <comment>Description représente une description sommaire, en 1 seule ligne, du document.</comment>
+    </item>
+    <item id="did86350894dd945a1987a16502d0772f56015" cid="CN006" type="comment-connector" name="" style-class="" creation-date="11/27/2020 15:04:49" from="53b0402707fc4aac891ce819a15d4d40" to="b1930b43abb64d0bab002c5496f164f0" />
+    <item id="4a62524f08154bd5a9ec3ae3517ca16d" cid="CMT007" type="comment" name="Comment" style-class="" creation-date="11/27/2020 15:14:20">
+      <comment>La comparaison entre documents se fait selon le titre.</comment>
+    </item>
+    <item id="dic11f185101ad4ce4812fca1095329b277620" cid="CN007" type="comment-connector" name="" style-class="" creation-date="11/27/2020 15:14:20" from="4a62524f08154bd5a9ec3ae3517ca16d" to="b1930b43abb64d0bab002c5496f164f0" />
+  </items>
+  <models>
+    <model id="p5e6a15646f08439d95b9b1967f5d72b2_737796704" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/26/2020 10:10:48</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pfd10674a9f7347328189682900f44216_160733387" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-1029,-384" zoom="0.9">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/26/2020 10:10:48</creation-date>
+          <change-date>11/27/2020 15:32:51</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="b1930b43abb64d0bab002c5496f164f0" cid="C001" type="class" name="Document" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:11:05" visibility="package" is-abstract="true">
+            <owned-items>
+              <owned-item ref="58386c12e0bd43f79044645481b7d8e2" />
+              <owned-item ref="a2f5f4e461834147bf00e1a1b529d2b2" />
+              <owned-item ref="70b36162d83b4821b8752741951bc954" />
+              <owned-item ref="36373d0ce3c24edf8b42e1c0b56fe2dd" />
+            </owned-items>
+            <attributes>
+              <attribute id="a9be44d0d1919475996f84ae269ceaca5921" cid="ELEM001" name="titre" creation-date="11/26/2020 10:12:15" property-ref="58386c12e0bd43f79044645481b7d8e2" />
+              <attribute id="a76f6259783794dfeaa5c63575f7a8ea3950" cid="ELEM002" name="auteur" creation-date="11/26/2020 10:12:21" property-ref="a2f5f4e461834147bf00e1a1b529d2b2" />
+              <attribute id="af825ecbfb3644b0fbf306164844a0fa7152" cid="ELEM004" name="emprunteur" creation-date="11/26/2020 10:12:41" property-ref="70b36162d83b4821b8752741951bc954" />
+              <attribute id="a4340f180477e43e5a49beed9a0db295c516" cid="ELEM007" name="listeAttente" creation-date="11/26/2020 10:18:04" property-ref="36373d0ce3c24edf8b42e1c0b56fe2dd" />
+            </attributes>
+            <operations>
+              <operation id="o2416ff1c9f2949f7aba16658e7dac894769" cid="ELEM005" name="EstDisponible" creation-date="11/26/2020 10:13:09" type="Boolean" type-id="Uml.Boolean" visibility="public" />
+              <operation id="oeea032392d444dc8938d2cf48fa26cc1328" cid="ELEM006" name="GetTitre" creation-date="11/26/2020 10:13:26" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="oe790dbcb5b8248919e0798b2777b920f921" cid="ELEM007" name="SetTitre" creation-date="11/26/2020 10:13:35" type="Void" type-id="Void" visibility="public">
+                <parameters>
+                  <parameter id="pb97c915c99954baf9bfed663c71c9389" name="value" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o022b387502c946b5b9c926b51736be39329" cid="ELEM008" name="GetAuteur" creation-date="11/26/2020 10:13:57" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="ob2533b69cbe144fa90e7f206c3deeb712" cid="ELEM009" name="SetAuteur" creation-date="11/26/2020 10:14:07" type="Void" type-id="Void" visibility="public">
+                <parameters>
+                  <parameter id="p4653014c57ca45088bb48dc3e9dd2619" name="value" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o5b68aafddd504d29b0e380dd85524e17370" cid="ELEM010" name="GetEmprunteur" creation-date="11/26/2020 10:14:17" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" visibility="public" />
+              <operation id="o6be3b1badb144f8087ab5c4d7b82faca722" cid="ELEM011" name="SetEmprunteur" creation-date="11/26/2020 10:15:11" type="Void" type-id="Void" visibility="public">
+                <parameters>
+                  <parameter id="p83c84fbe87434153ae0fef8a777d3f85" name="value" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" />
+                </parameters>
+              </operation>
+              <operation id="o77434a2b78df4678a2b863641b646c2f604" cid="ELEM015" name="GetListeAttente" creation-date="11/26/2020 10:18:18" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" multiplicity="*" visibility="public" />
+              <operation id="o9c8db151f3b542d486cc140f9854bc83659" cid="ELEM012" name="Document" creation-date="11/26/2020 10:16:39" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pd057e7519883451db6144a14dad77207" name="titre" type="String" type-id="Uml.String" />
+                  <parameter id="p56cc1eb1872447df892607ac6d054d6e" name="auteur" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="ofa25430a8b904b7aa997ca3eec2e675784" cid="ELEM014" name="Description" creation-date="11/26/2020 10:17:33" type="String" type-id="Uml.String" visibility="public" abstract="true" />
+              <operation id="o5c8597cf1ba34d5aa6141c6af65ed660636" cid="ELEM016" name="AjouterMembreListeAttente" creation-date="11/26/2020 10:18:33" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="p5341b62d1f2d4e39a4e4183a3d1f401e" name="ajout" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" />
+                </parameters>
+              </operation>
+              <operation id="odec5f5a855b34358a60313e17a9da2ef733" cid="ELEM017" name="EnleverMembreListeAttente" creation-date="11/26/2020 10:19:03" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="p8964ea154b3c413bba6ae431c0e69c3c" name="retrait" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="5604aa541aed4748b4c9b68814542dee" cid="C002" type="class" name="Audio" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:11:44" visibility="package">
+            <owned-items>
+              <owned-item ref="f4ef0900f4c8445ea75b262d20ad2c4a" />
+              <owned-item ref="b5522811de5f411faa27a4a33846ef60" />
+            </owned-items>
+            <attributes>
+              <attribute id="ac025005f84cf4849a2738831ef82b236158" cid="PROP018" name="nbMinutes" creation-date="11/26/2020 16:28:13" property-ref="f4ef0900f4c8445ea75b262d20ad2c4a" />
+              <attribute id="ab54187bef5934fbe910267e02425ac47771" cid="PROP019" name="format" creation-date="11/26/2020 16:28:20" property-ref="b5522811de5f411faa27a4a33846ef60" />
+            </attributes>
+            <operations>
+              <operation id="o282534260bb848c48de03bba6e04e58d124" cid="ELEM070" name="GetNbMinutes" creation-date="11/26/2020 17:04:45" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="odd417adbd847452ca842d5494efdf232261" cid="ELEM071" name="GetFormat" creation-date="11/26/2020 17:04:53" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o8ff0f3e8f4eb41cd994e73b59d9f4595951" cid="ELEM072" name="Audio" creation-date="11/26/2020 17:05:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p7b592e82b0de4699afebaec72a93477d" name="titre" type="String" type-id="Uml.String" />
+                  <parameter id="p3613edf8eb174d25ae8a2ae9497cdff1" name="auteur" type="String" type-id="Uml.String" />
+                  <parameter id="p45821334eeff43f9a5f8839164d5a482" name="nbMinutes" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p5b695edcdc9d477d909785b01201cdd2" name="format" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o9a36d347180b4e7bb7552bc37ab6e2a9256" cid="ELEM081" name="Description" creation-date="11/27/2020 13:25:11" type="String" type-id="Uml.String" visibility="public" />
+            </operations>
+          </item>
+          <item id="cb02a58ca00e42698fac9f5a993d6e78" cid="GNR001" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:11:44" from="5604aa541aed4748b4c9b68814542dee" to="b1930b43abb64d0bab002c5496f164f0" visibility="package" />
+          <item id="ac35de49a73d4e6a9f90f6836ef9ca0f" cid="C003" type="class" name="Livre" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:11:49" visibility="package">
+            <owned-items>
+              <owned-item ref="4f056d38ac274586b00d634b9b77c883" />
+              <owned-item ref="7db331d5657b49f39dcdf4cccb1d431b" />
+              <owned-item ref="dc29f8a987e44204861392704f6ce8b0" />
+              <owned-item ref="3d2b21f19dff472092c543608ae47827" />
+              <owned-item ref="16f99343bc6647cd806ab00c466f99e9" />
+            </owned-items>
+            <attributes>
+              <attribute id="a3ed75e23adb743c2b657b3fc2fa09a37165" cid="PROP013" name="editeur" creation-date="11/26/2020 16:23:23" property-ref="4f056d38ac274586b00d634b9b77c883" />
+              <attribute id="a1b0fffef010e461f93e96a2a14b20f44226" cid="PROP014" name="datePublication" creation-date="11/26/2020 16:23:27" property-ref="7db331d5657b49f39dcdf4cccb1d431b" />
+              <attribute id="a2dcd60e4617c4f05ab89d8924a5e550e786" cid="PROP015" name="nbPages" creation-date="11/26/2020 16:23:35" property-ref="dc29f8a987e44204861392704f6ce8b0" />
+              <attribute id="a313e2d68c4564f8cbb3e8a8e6ff44e68832" cid="PROP016" name="isbn" creation-date="11/26/2020 16:23:42" property-ref="3d2b21f19dff472092c543608ae47827" />
+              <attribute id="a9ebe9291e0004701abe78fee46c90c75677" cid="PROP017" name="cote" creation-date="11/26/2020 16:26:59" property-ref="16f99343bc6647cd806ab00c466f99e9" />
+            </attributes>
+            <operations>
+              <operation id="oeed906fba3b940ebb7571248054f54a1776" cid="ELEM064" name="GetEditeur" creation-date="11/26/2020 17:02:35" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o2a92cccc567b4d9783d5e988f8f9ee29843" cid="ELEM065" name="GetDatePublication" creation-date="11/26/2020 17:02:56" type="DateTime" type-id="Uml.DateTime" visibility="public" />
+              <operation id="oc862050145894e8680bc7db760478f55141" cid="ELEM066" name="GetNbPages" creation-date="11/26/2020 17:03:12" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o9236b03fafc4495b87a077fc0872a0b3628" cid="ELEM067" name="GetISBN" creation-date="11/26/2020 17:03:21" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="oeb0403d6b87548bea67fcb4300ce69aa734" cid="ELEM068" name="GetCote" creation-date="11/26/2020 17:03:34" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="oe312a5cbfe8c42189d6641c65600b518698" cid="ELEM069" name="Livre" creation-date="11/26/2020 17:03:55" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pfab027901ee64f759dd82a554d059980" name="titre" type="String" type-id="Uml.String" />
+                  <parameter id="pf45b9b88f61548d5802a812cf3a5a678" name="auteur" type="String" type-id="Uml.String" />
+                  <parameter id="p73d12f3be2ba4a31b9dfdb2a740ea6be" name="editeur" type="String" type-id="Uml.String" />
+                  <parameter id="pf8ab5460af4347f2b3911d5c2fe2512f" name="datePub" type="DateTime" type-id="Uml.DateTime" />
+                  <parameter id="pea7ffb57e06a472db0574bdce47dc804" name="nbPages" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pf1d3a6cf540e4146b3b35ba38e135c74" name="isbn" type="String" type-id="Uml.String" />
+                  <parameter id="pbff8478e6137439999a360a59cebd2de" name="cote" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o4abb60a1b8bc4c778e2bae3df5a028de229" cid="ELEM078" name="Description" creation-date="11/27/2020 13:24:35" type="String" type-id="Uml.String" visibility="public" />
+            </operations>
+          </item>
+          <item id="1b6b0ac0e7f1468cb148c2d5734695e9" cid="GNR002" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:11:49" from="ac35de49a73d4e6a9f90f6836ef9ca0f" to="b1930b43abb64d0bab002c5496f164f0" visibility="package" />
+          <item id="49cea245a9f245e89d1b9fbe17a52698" cid="C005" type="class" name="Periodique" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:12:03" visibility="package">
+            <owned-items>
+              <owned-item ref="51b194c711574512bd0b1f9db5e54166" />
+              <owned-item ref="c5fdaef876734c0b8f1ea2b8cb9b163a" />
+              <owned-item ref="76d5b30bc97b4248acacdeaa51b5eebd" />
+            </owned-items>
+            <attributes>
+              <attribute id="a34d9ca9b8b25455ca5d2b14102e11ea598" cid="PROP020" name="annee" creation-date="11/26/2020 16:28:29" property-ref="51b194c711574512bd0b1f9db5e54166" />
+              <attribute id="a5b2f040b16aa46a3ad351ae19646cfd137" cid="PROP021" name="numero" creation-date="11/26/2020 16:28:42" property-ref="c5fdaef876734c0b8f1ea2b8cb9b163a" />
+              <attribute id="afcd6527d9f5246e48c420a6b2147f4a0194" cid="PROP022" name="nbPages" creation-date="11/26/2020 16:28:48" property-ref="76d5b30bc97b4248acacdeaa51b5eebd" />
+            </attributes>
+            <operations>
+              <operation id="o67b6f89cfa6d429fa60d59127666fb2e151" cid="ELEM073" name="GetAnnee" creation-date="11/26/2020 17:06:07" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o818e8d1e624447008eda4dccc88a21a8902" cid="ELEM074" name="GetNumero" creation-date="11/26/2020 17:06:20" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="oc34cc1279d7e4c9eb82a8f18bf9bc69d657" cid="ELEM075" name="GetNbPages" creation-date="11/26/2020 17:06:29" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="odfab0596833743f7a5b5136373d0f6ad692" cid="ELEM076" name="Periodique" creation-date="11/26/2020 17:06:48" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p3803ba79d222473dbca1dcbfba343917" name="titre" type="String" type-id="Uml.String" />
+                  <parameter id="pf07ce365aa2b402eb2278ee886ba51f6" name="auteur" type="String" type-id="Uml.String" />
+                  <parameter id="p45c5666c70d14520ba7f9061531062a6" name="annee" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p29159691a533447fa084d0b55cf5015d" name="numero" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pd6ea1818656c4b05b5ec1e1f9d92d750" name="nbPages" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o88ae61a4ef1f43e999e6608e8c42a50e574" cid="ELEM079" name="Description" creation-date="11/27/2020 13:24:57" type="String" type-id="Uml.String" visibility="public" />
+            </operations>
+          </item>
+          <item id="81449010bc4f4ffb8f1f61d09a380692" cid="GNR004" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:12:03" from="49cea245a9f245e89d1b9fbe17a52698" to="b1930b43abb64d0bab002c5496f164f0" visibility="package" />
+          <item id="58386c12e0bd43f79044645481b7d8e2" cid="ELEM001" type="property" name="titre" style-class="" owner="b1930b43abb64d0bab002c5496f164f0" creator="" creation-date="11/26/2020 10:12:15" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="a2f5f4e461834147bf00e1a1b529d2b2" cid="ELEM002" type="property" name="auteur" style-class="" owner="b1930b43abb64d0bab002c5496f164f0" creator="" creation-date="11/26/2020 10:12:21" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="70b36162d83b4821b8752741951bc954" cid="ELEM004" type="property" name="emprunteur" style-class="" owner="b1930b43abb64d0bab002c5496f164f0" creator="" creation-date="11/26/2020 10:12:41" visibility="private">
+            <feature />
+            <structural-feature type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" />
+            <property />
+          </item>
+          <item id="162f941678014798b15e13c5b40b3193" cid="C006" type="class" name="Membre" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:14:44" visibility="package">
+            <owned-items>
+              <owned-item ref="46e3d10c620e4d6fa5a8df9cf37b37bf" />
+              <owned-item ref="5b83566a19b64ea2b34fd4cde3320b01" />
+              <owned-item ref="a9be2df64aeb4f1ea9b78a77b3cd201b" />
+              <owned-item ref="c9646e49ed7b4e6fb2f6f7fdc53f5f38" />
+            </owned-items>
+            <attributes>
+              <attribute id="afdd4475e65104e7bae9983bfcfdc18d2594" cid="ELEM005" name="nom" creation-date="11/26/2020 10:15:55" property-ref="46e3d10c620e4d6fa5a8df9cf37b37bf" />
+              <attribute id="a5656d94e2b8a4ec99578da8a2de4c5ff85" cid="PROP025" name="listeEmprunts" creation-date="11/27/2020 14:16:13" property-ref="5b83566a19b64ea2b34fd4cde3320b01" />
+              <attribute id="a100e5ce7776b4f02b9d03e5145a26319990" cid="PROP026" name="noMembre" creation-date="11/27/2020 14:24:28" property-ref="a9be2df64aeb4f1ea9b78a77b3cd201b" />
+              <attribute id="a03145f44bd674a82bb97b009b018573e42" cid="PROP027" name="nbMembresTotal" creation-date="11/27/2020 14:24:41" property-ref="c9646e49ed7b4e6fb2f6f7fdc53f5f38" />
+            </attributes>
+            <operations>
+              <operation id="o9ea88f3f15f345a7b77e8efe869af7aa645" cid="ELEM018" name="GetNom" creation-date="11/26/2020 10:20:17" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o6e85a0c1dbcd49198d37497a2669c8d7845" cid="ELEM019" name="SetNom" creation-date="11/26/2020 10:20:30" type="Void" type-id="Void" visibility="public">
+                <parameters>
+                  <parameter id="p52f6714913e3407180bdd8f8488cf17e" name="value" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o2a6e41ae71f74d23838c4953eea5be80256" cid="ELEM086" name="GetListeEmprunts" creation-date="11/27/2020 14:22:56" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" multiplicity="*" visibility="public" />
+              <operation id="o28b86ad6d91f4434ac8b1d69e707c74a429" cid="ELEM087" name="GetNbEmprunts" creation-date="11/27/2020 15:04:02" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="occ5866790dcb4428b57f4e946a247b1136" cid="ELEM089" name="GetNoMembre" creation-date="12/02/2020 16:25:55" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="obe894c220fa245d0b48a3d7c9ee8a2a0516" cid="ELEM021" name="Membre" creation-date="11/26/2020 10:21:54" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p0cb1de709ebb440b90db6c101c43a0b5" name="nom" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o9fd131cbc5dd4412a5aede82f3ecc3bf171" cid="ELEM084" name="AjouterDocument" creation-date="11/27/2020 14:16:31" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="pc14b33f647f1492189899b7dfdce246c" name="nouveau" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+                </parameters>
+              </operation>
+              <operation id="oa48d960fdf844dae8c8f991bcdc64ef9998" cid="ELEM085" name="RetirerDocument" creation-date="11/27/2020 14:17:16" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="p8a6e377adac94a75b87e3f8ef67f7c45" name="retrait" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="46e3d10c620e4d6fa5a8df9cf37b37bf" cid="ELEM005" type="property" name="nom" style-class="" owner="162f941678014798b15e13c5b40b3193" creator="" creation-date="11/26/2020 10:15:55" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="5b83566a19b64ea2b34fd4cde3320b01" cid="PROP025" type="property" name="listeEmprunts" style-class="" owner="162f941678014798b15e13c5b40b3193" creation-date="11/27/2020 14:16:13" visibility="private">
+            <feature />
+            <structural-feature multiplicity="*" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+            <property />
+          </item>
+          <item id="36373d0ce3c24edf8b42e1c0b56fe2dd" cid="ELEM007" type="property" name="listeAttente" style-class="" owner="b1930b43abb64d0bab002c5496f164f0" creator="" creation-date="11/26/2020 10:18:04" visibility="private">
+            <feature />
+            <structural-feature multiplicity="*" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" />
+            <property />
+          </item>
+          <item id="8af9b173d3524b79aa5b547eca3fb0f5" cid="C007" type="class" name="Repertoire" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:29:50" visibility="package">
+            <owned-items>
+              <owned-item ref="071f09490689444e9834e704b9993dda" />
+              <owned-item ref="c9181783a8ed4a28ad4fcab8deb86468" />
+            </owned-items>
+            <attributes>
+              <attribute id="a665696676b6e48faa0201a68a18c18e1559" cid="ELEM008" name="listeDocuments" creation-date="11/26/2020 10:30:00" property-ref="071f09490689444e9834e704b9993dda" />
+              <attribute id="a3c7e818ab4f5443bb421ae69d641980b537" cid="PROP024" name="nom" creation-date="11/26/2020 17:09:22" property-ref="c9181783a8ed4a28ad4fcab8deb86468" />
+            </attributes>
+            <operations>
+              <operation id="oe4b2d818260f48218bb1790e43f61027607" cid="ELEM024" name="GetListeDocuments" creation-date="11/26/2020 10:30:20" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" multiplicity="*" visibility="public" />
+              <operation id="o11e52bdb734c4374935ef2a734b8be9937" cid="ELEM077" name="GetNom" creation-date="11/26/2020 17:09:39" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="odcc909460270421f90c3d4ac8267e44f391" cid="ELEM025" name="GetListeAttente" creation-date="11/26/2020 10:30:40" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" multiplicity="*" visibility="public" />
+              <operation id="o5b7ea0646cb7486eae95f82d5f7f6a3054" cid="ELEM026" name="GetListeEmprunts" creation-date="11/26/2020 10:30:59" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" multiplicity="*" visibility="public" />
+              <operation id="oc8d7e08b039141b091cc2fd645543a0b222" cid="ELEM027" name="Repertoire" creation-date="11/26/2020 10:31:10" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pe33d173667954d24a53a238bbe23563f" name="nomRepertoire" type="String" type-id="Uml.String" />
+                  <parameter id="p20286e806ff946619541965604289240" name="nomFichier" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o196907ec33aa477e9962b0635dbef5d9755" cid="ELEM060" name="ChargerDocuments" creation-date="11/26/2020 13:33:09" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" multiplicity="*" visibility="public">
+                <parameters>
+                  <parameter id="pc50840fa93284f9f9fdd99d975f433be" name="nomFichier" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="of818614a22ea4777a46ed3f23f43972a651" cid="ELEM047" name="TrouverDocument" creation-date="11/26/2020 10:57:29" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" visibility="public">
+                <parameters>
+                  <parameter id="p5d3e44190b7b4aa3a2478bb68805a606" name="titre" type="String" type-id="Uml.String" />
+                  <parameter id="pbc82d601c35745eb8fe750122e994c04" name="nomAuteur" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o09b29e2736cb443a92b0b67d1bccd6f6341" cid="ELEM028" name="AjouterDocument" creation-date="11/26/2020 10:32:30" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="p2110d80b5cb94e0dbd91cfbc54ff1d70" name="nouveauDoc" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+                </parameters>
+              </operation>
+              <operation id="ofa796ad609554d73b149cf742dc12cf3984" cid="ELEM038" name="SupprimerDocument" creation-date="11/26/2020 10:41:54" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="pc3f65b2190454e09a7e5af778c52f9c2" name="docASupprimer" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+                </parameters>
+              </operation>
+              <operation id="occ4b1c42301543f29b14861c7cad48db847" cid="ELEM055" name="VerifierDisponibilite" creation-date="11/26/2020 11:31:49" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="p9f86e4ccdf0f49979a134ab0e81dab7a" name="docAVerifier" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="071f09490689444e9834e704b9993dda" cid="ELEM008" type="property" name="listeDocuments" style-class="" owner="8af9b173d3524b79aa5b547eca3fb0f5" creator="" creation-date="11/26/2020 10:30:00" visibility="private">
+            <feature />
+            <structural-feature multiplicity="*" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+            <property />
+          </item>
+          <item id="18d3b02d124545d1b1505a156f4a461a" cid="C008" type="class" name="Bibliotheque" style-class="" change-tracking-state="added" creator="" creation-date="11/26/2020 10:35:36" visibility="package">
+            <owned-items>
+              <owned-item ref="70c4cdb73def4d878ebe4d62d441f65a" />
+              <owned-item ref="8e48c342253748f7b76b35067c4a3449" />
+              <owned-item ref="63aee9646dfd40c384a863300cd03806" />
+            </owned-items>
+            <attributes>
+              <attribute id="a9163cfbe23c644bc93013bcf971ff33369" cid="ELEM009" name="leRepertoire" creation-date="11/26/2020 10:36:20" property-ref="70c4cdb73def4d878ebe4d62d441f65a" />
+              <attribute id="a9eb87a1d48c04d8086d1cf22115ad6ce837" cid="ELEM010" name="nom" creation-date="11/26/2020 10:53:54" property-ref="8e48c342253748f7b76b35067c4a3449" />
+              <attribute id="a181e45530d6540eb90fe0fb2c2b3bbc9880" cid="ELEM012" name="lesMembres" creation-date="11/26/2020 11:08:22" property-ref="63aee9646dfd40c384a863300cd03806" />
+            </attributes>
+            <operations>
+              <operation id="oe25b2cf568824c9c8c47136ad807f75d415" cid="ELEM045" name="GetNom" creation-date="11/26/2020 10:54:56" type="String" type-id="Uml.String" visibility="public" />
+              <operation id="o2109d246059c4ebfbc5acb5c0b699421349" cid="ELEM061" name="GetMembres" creation-date="11/26/2020 13:34:09" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" multiplicity="*" visibility="public" />
+              <operation id="o299e7e45ec4d4fb2ae40260da27a1fd4420" cid="ELEM032" name="Bibliotheque" creation-date="11/26/2020 10:38:24" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p03c01e5a78bb453a9ecdf8d02746b2a6" name="nomBiblio" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="oe5e78f986c854d2cbff7803103bf7cec922" cid="ELEM049" name="NotifierEmprunt" creation-date="11/26/2020 10:58:08" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="p200abe8e2e7d4ec3a7055bf2a7f74562" name="nomMembre" type="String" type-id="Uml.String" />
+                  <parameter id="p2675720816fe4e73bda25963e5416051" name="leDocument" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+                </parameters>
+              </operation>
+              <operation id="o3f9b19fd6da84b0e86a87670d25cbc43395" cid="ELEM057" name="NotifierRetour" creation-date="11/26/2020 11:38:32" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="p959c14b0216f48c28178d2cb85696e67" name="leDocument" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+                </parameters>
+              </operation>
+              <operation id="oa1edab064f6144d8909f9eee6596a22f780" cid="ELEM058" name="TrouverMembre" creation-date="11/26/2020 11:38:54" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" visibility="public">
+                <parameters>
+                  <parameter id="p994899ed413041299e44ca57fb0a373f" name="nom" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="ob5c6b082e504478b9a2773cb04519536233" cid="ELEM059" name="AjouterMembre" creation-date="11/26/2020 11:44:08" type="Void" type-id="Void" visibility="public">
+                <parameters>
+                  <parameter id="pe4028ba029124b69afd279b87da16847" name="nouveau" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" />
+                </parameters>
+              </operation>
+              <operation id="ocae68361d3a345728823864f6f604d3e569" cid="ELEM062" name="AjouterListeAttente" creation-date="11/26/2020 14:50:54" type="Boolean" type-id="Uml.Boolean" visibility="public">
+                <parameters>
+                  <parameter id="pf50682e3dbb445a5afb1c037c3d64a45" name="leMembre" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" />
+                  <parameter id="p90e97db59a4b4316a2ab84df4edbe0d9" name="leDoc" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="70c4cdb73def4d878ebe4d62d441f65a" cid="ELEM009" type="property" name="leRepertoire" style-class="" owner="18d3b02d124545d1b1505a156f4a461a" creator="" creation-date="11/26/2020 10:36:20" visibility="private">
+            <feature />
+            <structural-feature type="Repertoire" type-id="Class:8af9b173d3524b79aa5b547eca3fb0f5" />
+            <property />
+          </item>
+          <item id="8e48c342253748f7b76b35067c4a3449" cid="ELEM010" type="property" name="nom" style-class="" owner="18d3b02d124545d1b1505a156f4a461a" creator="" creation-date="11/26/2020 10:53:54" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="63aee9646dfd40c384a863300cd03806" cid="ELEM012" type="property" name="lesMembres" style-class="" owner="18d3b02d124545d1b1505a156f4a461a" creator="" creation-date="11/26/2020 11:08:22" visibility="private">
+            <feature />
+            <structural-feature multiplicity="*" type="Membre" type-id="Class:162f941678014798b15e13c5b40b3193" />
+            <property />
+          </item>
+          <item id="di0bbadb79412c449c8b62f437c1340c656083" cid="ELEM011" type="property" name="listeDocuments" style-class="" creator="" creation-date="11/26/2020 10:30:00" visibility="private">
+            <feature />
+            <structural-feature multiplicity="*" type="Document" type-id="Class:b1930b43abb64d0bab002c5496f164f0" />
+            <property />
+          </item>
+          <item id="4f056d38ac274586b00d634b9b77c883" cid="PROP013" type="property" name="editeur" style-class="" owner="ac35de49a73d4e6a9f90f6836ef9ca0f" creator="" creation-date="11/26/2020 16:23:23" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="7db331d5657b49f39dcdf4cccb1d431b" cid="PROP014" type="property" name="datePublication" style-class="" owner="ac35de49a73d4e6a9f90f6836ef9ca0f" creator="" creation-date="11/26/2020 16:23:27" visibility="private">
+            <feature />
+            <structural-feature type="DateTime" type-id="Uml.DateTime" />
+            <property />
+          </item>
+          <item id="dc29f8a987e44204861392704f6ce8b0" cid="PROP015" type="property" name="nbPages" style-class="" owner="ac35de49a73d4e6a9f90f6836ef9ca0f" creator="" creation-date="11/26/2020 16:23:35" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="3d2b21f19dff472092c543608ae47827" cid="PROP016" type="property" name="isbn" style-class="" owner="ac35de49a73d4e6a9f90f6836ef9ca0f" creator="" creation-date="11/26/2020 16:23:42" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="16f99343bc6647cd806ab00c466f99e9" cid="PROP017" type="property" name="cote" style-class="" owner="ac35de49a73d4e6a9f90f6836ef9ca0f" creator="" creation-date="11/26/2020 16:26:59" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="f4ef0900f4c8445ea75b262d20ad2c4a" cid="PROP018" type="property" name="nbMinutes" style-class="" owner="5604aa541aed4748b4c9b68814542dee" creator="" creation-date="11/26/2020 16:28:13" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="b5522811de5f411faa27a4a33846ef60" cid="PROP019" type="property" name="format" style-class="" owner="5604aa541aed4748b4c9b68814542dee" creator="" creation-date="11/26/2020 16:28:20" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="51b194c711574512bd0b1f9db5e54166" cid="PROP020" type="property" name="annee" style-class="" owner="49cea245a9f245e89d1b9fbe17a52698" creator="" creation-date="11/26/2020 16:28:29" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="c5fdaef876734c0b8f1ea2b8cb9b163a" cid="PROP021" type="property" name="numero" style-class="" owner="49cea245a9f245e89d1b9fbe17a52698" creator="" creation-date="11/26/2020 16:28:42" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="76d5b30bc97b4248acacdeaa51b5eebd" cid="PROP022" type="property" name="nbPages" style-class="" owner="49cea245a9f245e89d1b9fbe17a52698" creator="" creation-date="11/26/2020 16:28:48" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="c9181783a8ed4a28ad4fcab8deb86468" cid="PROP024" type="property" name="nom" style-class="" owner="8af9b173d3524b79aa5b547eca3fb0f5" creator="" creation-date="11/26/2020 17:09:22" visibility="private">
+            <feature />
+            <structural-feature type="String" type-id="Uml.String" />
+            <property />
+          </item>
+          <item id="e25c6bfdbd2d4b6389888fe3bc726451" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="11/27/2020 12:54:45" from="18d3b02d124545d1b1505a156f4a461a" to="162f941678014798b15e13c5b40b3193" visibility="package">
+            <relation from="18d3b02d124545d1b1505a156f4a461a" to="162f941678014798b15e13c5b40b3193" derived="false">
+              <start-role id="umlar-6d9416f2-302b-4523-bb75-b9d95633ef60" name="" multiplicity="0..*" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="umlar-a6b5e86f-2963-4b08-8eb5-d82a564f17ed" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="8e14aa4ca96d49879ca6927fc40a76d6" cid="REL002" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="11/27/2020 12:58:14" from="18d3b02d124545d1b1505a156f4a461a" to="8af9b173d3524b79aa5b547eca3fb0f5" visibility="package">
+            <relation from="18d3b02d124545d1b1505a156f4a461a" to="8af9b173d3524b79aa5b547eca3fb0f5" derived="false">
+              <start-role id="umlar-184906d2-5c61-4d18-a332-34cd5ef23cf1" name="" multiplicity="1" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="umlar-31fdc1bf-4c69-4b69-95a4-bc1a8f55bd74" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="b864f42f54bd4d7c854b4b6619135c2d" cid="REL004" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="11/27/2020 14:08:27" from="8af9b173d3524b79aa5b547eca3fb0f5" to="b1930b43abb64d0bab002c5496f164f0" visibility="package">
+            <relation from="8af9b173d3524b79aa5b547eca3fb0f5" to="b1930b43abb64d0bab002c5496f164f0" derived="false">
+              <start-role id="umlar-7631f039-2301-4be1-bc8a-93560d2d43df" name="" multiplicity="0..*" navigability="" association-type="aggregation" visibility="private" />
+              <end-role id="umlar-a5a303ad-16e0-4c5d-8996-db0db0bc45c8" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="4e16ee4a88ca417091723bf8581d1b29" cid="I001" type="uml-interface-classifier" name="IComparable&lt;T&gt;" style-class="" change-tracking-state="added" creation-date="11/27/2020 14:02:54" visibility="package">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="4e16ee4a88ca417091723bf8581d1b29_interface_c" type="interface" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="o0b5aa43626584ffc975ab321b800de63220" cid="ELEM082" name="CompareTo" creation-date="11/27/2020 14:03:04" type="Integer" type-id="Uml.Integer" visibility="public">
+                <parameters>
+                  <parameter id="p6ebbd6556c054ab6b68890f494df17fc" name="other" type="T" type-id="T" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="d6bd083a42204658bece48c8ca76ffbd" cid="REL016" type="relationship" name="" style-class="" change-tracking-state="added" creation-date="11/27/2020 14:20:34" from="b1930b43abb64d0bab002c5496f164f0" to="162f941678014798b15e13c5b40b3193" visibility="package">
+            <relation from="b1930b43abb64d0bab002c5496f164f0" to="162f941678014798b15e13c5b40b3193" derived="false">
+              <start-role id="umlar-7e35558a-09bc-41b3-9ea3-5b254bc1287c" name="" multiplicity="0..*" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-8e8f3916-013e-4e03-b9ac-16d49ff209d0" name="" multiplicity="0..1" navigability="" association-type="association" visibility="private" attribute-ref="a03145f44bd674a82bb97b009b018573e42" />
+            </relation>
+          </item>
+          <item id="c9646e49ed7b4e6fb2f6f7fdc53f5f38" cid="PROP027" type="property" name="nbMembresTotal" style-class="" owner="162f941678014798b15e13c5b40b3193" creation-date="11/27/2020 14:24:41" visibility="private">
+            <feature static="true" />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="a9be2df64aeb4f1ea9b78a77b3cd201b" cid="PROP026" type="property" name="noMembre" style-class="" owner="162f941678014798b15e13c5b40b3193" creation-date="11/27/2020 14:24:28" visibility="private">
+            <feature />
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+            <property />
+          </item>
+          <item id="bd28a3ea354c4135b9648cd8fc056d72" cid="CMT008" type="comment" name="" style-class="" change-tracking-state="added" creation-date="11/27/2020 15:22:47">
+            <comment>Instructions :
+Créez un projet de type "Bibliothèque de classes". Ceci signifie que vous préparez un ensemble d'objets qui pourront être utilisés par un système externe. Gardez en tête que vous ne SAVEZ PAS comment vos objets seront utilisés. Vous devez donc programmer vos classes et vos méthodes en ayant conscience de ça. Les classes sont toutes publics, ce qui signifie qu'une source externe au projet peut instancier ces objets comme bon lui semble.
+
+Une bibliothèque de classes ne comporte pas de main. Elle comporte QUE des classes.
+
+Les classes suivantes sont un modèle sur lequel vous pouvez vous baser. Un modèle que vous pouvez modifier selon vos besoins.
+Vous devez ajouter à vos classes :
+- Les validations nécessaires aux emplacements nécessaires
+- La gestion d'exception et le lancé d'exception aux moments opportuns
+
+Vous devez également ajouter un projet de test unitaire, avec les méthodes tests, qui permettront de valider que vos méthodes fonctionnent. Étant donné qu'aucun main est présent, il s'agit du seul moyen que vous avez de valider le fonctionnement de votre projet final.
+
+Le choix des exceptions, des validations et les méthodes de test unitaire font la majeure partie de l'évaluation.</comment>
+          </item>
+        </abstract-items>
+        <layer id="4592ed890fca4d259de67648d946b2d8" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b1930b43abb64d0bab002c5496f164f0" iid="371f316d89cf47c492bd6ce93e2872fc" creation-date="11/26/2020 10:11:05" order-index="0" type="entity">
+            <layout ax="-222.5" ay="146.5" awidth="361" aheight="351" x="-222.5" y="146.5" width="361" height="351" rotation-center="110.5,9" />
+            <class />
+          </item>
+          <item id="5604aa541aed4748b4c9b68814542dee" iid="2fee5782654e4f26bd2367484a96fd88" creation-date="11/26/2020 10:11:44" order-index="1" type="entity">
+            <layout ax="267.25" ay="383" awidth="378.5" aheight="178" x="267.25" y="383" width="378.5" height="136" rotation-center="59.5,12" />
+            <class />
+          </item>
+          <item id="cb02a58ca00e42698fac9f5a993d6e78" iid="62a2fbeabc5d48599dc5548ada9ac4fd" creation-date="11/26/2020 10:11:44" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="267" y1="401" x2="138" y2="402" start-border-pos="0.974016860127449" end-border-pos="0.431623935699463" start-local-pos="18.5" end-local-pos="255" name-position="0,20">
+              <points>
+                <point x="267" y="401" />
+                <point x="138" y="402" />
+              </points>
+            </layout>
+            <relation from="5604aa541aed4748b4c9b68814542dee" from-iid="2fee5782654e4f26bd2367484a96fd88" to="b1930b43abb64d0bab002c5496f164f0" to-iid="371f316d89cf47c492bd6ce93e2872fc" />
+          </item>
+          <item id="ac35de49a73d4e6a9f90f6836ef9ca0f" iid="7d59ea73791542638bdbf7d8fea01385" creation-date="11/26/2020 10:11:49" order-index="3" type="entity">
+            <layout ax="267.25" ay="-224.5" awidth="378.5" aheight="294.5" x="267.25" y="-224.5" width="378.5" height="294.5" rotation-center="73.25,-4.5" />
+            <class />
+          </item>
+          <item id="1b6b0ac0e7f1468cb148c2d5734695e9" iid="24bc329a1e364f94850dd96d00377b19" creation-date="11/26/2020 10:11:49" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="267" y1="52" x2="138" y2="172" start-border-pos="0.765065146579805" end-border-pos="0.268214285373688" start-local-pos="288.5" end-local-pos="25.5" name-position="0,20">
+              <points>
+                <point x="267" y="52" />
+                <point x="138" y="172" />
+              </points>
+            </layout>
+            <relation from="ac35de49a73d4e6a9f90f6836ef9ca0f" from-iid="7d59ea73791542638bdbf7d8fea01385" to="b1930b43abb64d0bab002c5496f164f0" to-iid="371f316d89cf47c492bd6ce93e2872fc" />
+          </item>
+          <item id="49cea245a9f245e89d1b9fbe17a52698" iid="f54da77e6434400990c98cfda39abc90" creation-date="11/26/2020 10:12:03" order-index="5" type="entity">
+            <layout ax="267.25" ay="118.5" awidth="378.5" aheight="216" x="267.25" y="118.5" width="378.5" height="212.5" rotation-center="-119.25,-26.25" />
+            <class />
+          </item>
+          <item id="81449010bc4f4ffb8f1f61d09a380692" iid="2bb9e905c26a47c6875fe8738af5cc6b" creation-date="11/26/2020 10:12:03" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="267" y1="274" x2="138" y2="274" start-border-pos="0.820023149251938" end-border-pos="0.340811967849731" start-local-pos="155.5" end-local-pos="127.5" name-position="0,20">
+              <points>
+                <point x="267" y="274" />
+                <point x="138" y="274" />
+              </points>
+            </layout>
+            <relation from="49cea245a9f245e89d1b9fbe17a52698" from-iid="f54da77e6434400990c98cfda39abc90" to="b1930b43abb64d0bab002c5496f164f0" to-iid="371f316d89cf47c492bd6ce93e2872fc" />
+          </item>
+          <item id="162f941678014798b15e13c5b40b3193" iid="b215302e37c7447c96007e83300e32a7" creation-date="11/26/2020 10:14:44" order-index="7" type="entity">
+            <layout ax="-666.5" ay="146.5" awidth="341" aheight="274" x="-666.5" y="146.5" width="341" height="199" rotation-center="-120.5,-17.5" />
+            <class />
+          </item>
+          <item id="8af9b173d3524b79aa5b547eca3fb0f5" iid="d4123043da5546d89f78713dd39ff714" creation-date="11/26/2020 10:29:50" order-index="8" type="entity">
+            <layout ax="-222.5" ay="-224.5" awidth="410.5" aheight="275" x="-222.5" y="-224.5" width="410.5" height="275" rotation-center="207.75,5" />
+            <class />
+          </item>
+          <item id="18d3b02d124545d1b1505a156f4a461a" iid="5adbe8b57fae4ffaa6a8695e6dbf896e" creation-date="11/26/2020 10:35:36" order-index="9" type="entity">
+            <layout ax="-786.5" ay="-224.5" awidth="461" aheight="255" x="-786.5" y="-224.5" width="461" height="255" rotation-center="-38.5,-34.5" />
+            <class />
+          </item>
+          <item id="e25c6bfdbd2d4b6389888fe3bc726451" iid="34c349f008564e018f048b15e51670a5" creation-date="11/27/2020 12:54:45" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="34,-22" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-556" y1="30" x2="-556" y2="146" start-border-pos="0.625" end-border-pos="0.0810117274522781" start-local-pos="230.5" end-local-pos="110.5" name-position="0,20">
+              <points>
+                <point x="-556" y="30" />
+                <point x="-556" y="146" />
+              </points>
+            </layout>
+            <relation from="18d3b02d124545d1b1505a156f4a461a" from-iid="5adbe8b57fae4ffaa6a8695e6dbf896e" to="162f941678014798b15e13c5b40b3193" to-iid="b215302e37c7447c96007e83300e32a7" />
+          </item>
+          <item id="8e14aa4ca96d49879ca6927fc40a76d6" iid="4796ca7265d447ada801e6a232d3ab46" creation-date="11/27/2020 12:58:14" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="-326" y1="-8" x2="-222" y2="-8" start-border-pos="0.461764705882353" end-border-pos="0.803181819617748" start-local-pos="216.5" end-local-pos="216.5" name-position="0,20">
+              <points>
+                <point x="-326" y="-8" />
+                <point x="-222" y="-8" />
+              </points>
+            </layout>
+            <relation from="18d3b02d124545d1b1505a156f4a461a" from-iid="5adbe8b57fae4ffaa6a8695e6dbf896e" from-field="ob5c6b082e504478b9a2773cb04519536233" to="8af9b173d3524b79aa5b547eca3fb0f5" to-iid="d4123043da5546d89f78713dd39ff714" />
+          </item>
+          <item id="4e16ee4a88ca417091723bf8581d1b29" iid="389acbec3fa14a05a6348d85b0effc64" creation-date="11/27/2020 14:02:54" order-index="13" type="entity">
+            <layout ax="-536.5" ay="429.25" awidth="211" aheight="85.5" x="-536.5" y="429.25" width="211" height="85.5" rotation-center="35.5,37.25" />
+            <class />
+          </item>
+          <item id="6a06720af2de40b48c223a4d5c55c451" iid="ac3b3601ea6043059dda484162be8d82" creation-date="11/27/2020 14:03:36" order-index="14" type="entity">
+            <layout name-position="-7.5,0.4130859" name-anchor="right" name-width="224" auto-anchor="true" label-attached="false" ax="-103.5" ay="93.5" awidth="25" aheight="25" x="-103.5" y="93.5" width="25" height="25" rotation-center="91,-106" />
+            <attached-parts>
+              <attached-part ref="b5b69b47437e4d27bb1dc1b1134d75fb" />
+            </attached-parts>
+            <interface />
+          </item>
+          <item id="c21ddc19e7d94faa9c282e4a8774e513" iid="b5b69b47437e4d27bb1dc1b1134d75fb" creation-date="11/27/2020 14:03:36" order-index="15" type="relation">
+            <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="-91" y1="146" x2="-91" y2="118" start-border-pos="0.0910664796829224" end-border-pos="0.625" name-position="0,20">
+              <points>
+                <point x="-91" y="146" />
+                <point x="-91" y="118" />
+              </points>
+            </layout>
+            <attached-parts>
+              <attached-part ref="ac3b3601ea6043059dda484162be8d82" />
+            </attached-parts>
+            <relation from="b1930b43abb64d0bab002c5496f164f0" from-iid="371f316d89cf47c492bd6ce93e2872fc" to="6a06720af2de40b48c223a4d5c55c451" to-iid="ac3b3601ea6043059dda484162be8d82" />
+          </item>
+          <item id="b864f42f54bd4d7c854b4b6619135c2d" iid="66593bcd45c74019a8762c87c7ee4a90" creation-date="11/27/2020 14:08:27" order-index="16" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="18,14" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-146" y1="50" x2="-146" y2="146" start-border-pos="0.703410476446152" end-border-pos="0.0529778393351801" start-local-pos="76.5" end-local-pos="76.5" name-position="0,20">
+              <points>
+                <point x="-146" y="50" />
+                <point x="-146" y="146" />
+              </points>
+            </layout>
+            <relation from="8af9b173d3524b79aa5b547eca3fb0f5" from-iid="d4123043da5546d89f78713dd39ff714" to="b1930b43abb64d0bab002c5496f164f0" to-iid="371f316d89cf47c492bd6ce93e2872fc" />
+          </item>
+          <item id="d6bd083a42204658bece48c8ca76ffbd" iid="d5705afdbf0c4894bf540e59fdb75782" creation-date="11/27/2020 14:20:34" order-index="17" type="relation">
+            <layout start-role-position="25,15.00001" end-role-position="25.00001,-15.00001" start-multiplicity-position="24.99999,-15.00001" end-multiplicity-position="25.00001,15.00001" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="-222" y1="242" x2="-326" y2="242" start-border-pos="0.931623931623932" end-border-pos="0.337591240875912" start-local-pos="95.5" end-local-pos="95.5" name-position="0,20">
+              <points>
+                <point x="-222" y="242" />
+                <point x="-326" y="242" />
+              </points>
+            </layout>
+            <relation from="b1930b43abb64d0bab002c5496f164f0" from-iid="371f316d89cf47c492bd6ce93e2872fc" from-field="a4340f180477e43e5a49beed9a0db295c516" to="162f941678014798b15e13c5b40b3193" to-iid="b215302e37c7447c96007e83300e32a7" to-field="a03145f44bd674a82bb97b009b018573e42" />
+          </item>
+          <item id="382d5b797c24484e8f53dbc1a05cc2c0" iid="18942c33eddc49ee8c4281a052752955" creation-date="11/27/2020 14:53:41" order-index="18" type="entity">
+            <layout ax="-980.5" ay="146.5" awidth="213.5" aheight="101" x="-980.5" y="146.5" width="213.5" height="101" rotation-center="79.75,-60.5" />
+          </item>
+          <item id="di593c3b91a67946358a43b06ebf67b1549698" iid="7e8cb3c044094ab699443ef509779c86" creation-date="11/27/2020 14:53:41" order-index="19" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-767" y1="222" x2="-666" y2="245" start-border-pos="0.435957880303411" end-border-pos="0.910243598214031" name-position="0,20">
+              <points>
+                <point x="-767" y="222" />
+                <point x="-666" y="245" />
+              </points>
+            </layout>
+            <relation from="382d5b797c24484e8f53dbc1a05cc2c0" from-iid="18942c33eddc49ee8c4281a052752955" to="162f941678014798b15e13c5b40b3193" to-iid="b215302e37c7447c96007e83300e32a7" />
+          </item>
+          <item id="594548605bd24940aaabbdc66220e9d1" iid="4a80408cf2d94f858d878422da16e65d" creation-date="11/27/2020 14:54:46" order-index="20" type="entity">
+            <layout ax="-982.5" ay="-188.5" awidth="171" aheight="153.5" x="-982.5" y="-188.5" width="171" height="153.5" rotation-center="-68.5,-26.75" />
+          </item>
+          <item id="di63c6fdeea6eb4f00878194373138fb982336" iid="5129e4f445a54cfda613aa74a8f363c5" creation-date="11/27/2020 14:54:46" order-index="21" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-812" y1="-108" x2="-786" y2="-107" start-border-pos="0.380754054563442" end-border-pos="0.884918923471488" name-position="0,20">
+              <points>
+                <point x="-812" y="-108" />
+                <point x="-786" y="-107" />
+              </points>
+            </layout>
+            <relation from="594548605bd24940aaabbdc66220e9d1" from-iid="4a80408cf2d94f858d878422da16e65d" to="18d3b02d124545d1b1505a156f4a461a" to-iid="5adbe8b57fae4ffaa6a8695e6dbf896e" />
+          </item>
+          <item id="c216947d668b495782195c5a5727c839" iid="6fd9eb135d124c20a2852d70d1be6722" creation-date="11/27/2020 14:58:32" order-index="22" type="entity">
+            <layout ax="-982.5" ay="-6.5" awidth="140" aheight="100" x="-982.5" y="-6.5" width="140" height="100" />
+          </item>
+          <item id="di007910d668fd46bfa1a131ad1652d98b4554" iid="15705faad34c4870ba0a4d88000c964f" creation-date="11/27/2020 14:58:32" order-index="23" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-842" y1="16" x2="-786" y2="-6" start-border-pos="0.306938199996948" end-border-pos="0.785690681607116" name-position="0,20">
+              <points>
+                <point x="-842" y="16" />
+                <point x="-786" y="-6" />
+              </points>
+            </layout>
+            <relation from="c216947d668b495782195c5a5727c839" from-iid="6fd9eb135d124c20a2852d70d1be6722" to="18d3b02d124545d1b1505a156f4a461a" to-iid="5adbe8b57fae4ffaa6a8695e6dbf896e" />
+          </item>
+          <item id="b3b2234cf79844d681d458e4cff68552" iid="7d445462791142558af25ebad6d83c30" creation-date="11/27/2020 15:02:14" order-index="24" type="entity">
+            <layout ax="-407" ay="543.5" awidth="229" aheight="53" x="-407" y="543.5" width="229" height="53" rotation-center="-44.5,23.5" />
+          </item>
+          <item id="di39460cdd6e5749e89486573e31b4a42c3316" iid="6eb51535aa4842468cf14d4f2fd60cda" creation-date="11/27/2020 15:02:14" order-index="25" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-266" y1="544" x2="-218" y2="498" start-border-pos="0.154159046156438" end-border-pos="0.747168480194176" name-position="0,20">
+              <points>
+                <point x="-266" y="544" />
+                <point x="-218" y="498" />
+              </points>
+            </layout>
+            <relation from="b3b2234cf79844d681d458e4cff68552" from-iid="7d445462791142558af25ebad6d83c30" to="b1930b43abb64d0bab002c5496f164f0" to-iid="371f316d89cf47c492bd6ce93e2872fc" />
+          </item>
+          <item id="fe424491f36b4d69a453e753a9b786de" iid="e87fd3a7d28f48d9a8fbc410d9ba92a7" creation-date="11/27/2020 15:03:31" order-index="26" type="entity">
+            <layout ax="-979.25" ay="274" awidth="211" aheight="53" x="-979.25" y="274" width="211" height="53" rotation-center="-35.5,23.5" />
+          </item>
+          <item id="dic6aaac8bef3f465bac28c77cc6fb34834288" iid="1688f5ad106a42ff912e1df71f56c2ef" creation-date="11/27/2020 15:03:31" order-index="27" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-768" y1="296" x2="-666" y2="291" start-border-pos="0.351477425053435" end-border-pos="0.867978311803219" name-position="0,20">
+              <points>
+                <point x="-768" y="296" />
+                <point x="-666" y="291" />
+              </points>
+            </layout>
+            <relation from="fe424491f36b4d69a453e753a9b786de" from-iid="e87fd3a7d28f48d9a8fbc410d9ba92a7" to="162f941678014798b15e13c5b40b3193" to-iid="b215302e37c7447c96007e83300e32a7" />
+          </item>
+          <item id="53b0402707fc4aac891ce819a15d4d40" iid="f2ebfb74761e4b778bad00f3265d2a56" creation-date="11/27/2020 15:04:49" order-index="28" type="entity">
+            <layout ax="68" ay="543.5" awidth="178" aheight="67" x="68" y="543.5" width="178" height="67" rotation-center="-19,16.5" />
+          </item>
+          <item id="did86350894dd945a1987a16502d0772f56015" iid="04724538a80a4ce1a26320d5af29809d" creation-date="11/27/2020 15:04:49" order-index="29" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="131" y1="544" x2="95" y2="498" start-border-pos="0.088830133502403" end-border-pos="0.53042338891703" name-position="0,20">
+              <points>
+                <point x="131" y="544" />
+                <point x="95" y="498" />
+              </points>
+            </layout>
+            <relation from="53b0402707fc4aac891ce819a15d4d40" from-iid="f2ebfb74761e4b778bad00f3265d2a56" to="b1930b43abb64d0bab002c5496f164f0" to-iid="371f316d89cf47c492bd6ce93e2872fc" />
+          </item>
+          <item id="4a62524f08154bd5a9ec3ae3517ca16d" iid="2d1835f2edce4e729da726080fff34ff" creation-date="11/27/2020 15:14:20" order-index="30" type="entity">
+            <layout ax="-156.75" ay="543.5" awidth="203.5" aheight="53" x="-156.75" y="543.5" width="203.5" height="53" rotation-center="31.75,-23.5" />
+          </item>
+          <item id="dic11f185101ad4ce4812fca1095329b277620" iid="57f481f184464cbc93a1eb4a87b0376c" creation-date="11/27/2020 15:14:20" order-index="31" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-54" y1="544" x2="-51" y2="498" start-border-pos="0.12667432874075" end-border-pos="0.631352760124735" name-position="0,20">
+              <points>
+                <point x="-54" y="544" />
+                <point x="-51" y="498" />
+              </points>
+            </layout>
+            <relation from="4a62524f08154bd5a9ec3ae3517ca16d" from-iid="2d1835f2edce4e729da726080fff34ff" to="b1930b43abb64d0bab002c5496f164f0" to-iid="371f316d89cf47c492bd6ce93e2872fc" />
+          </item>
+          <item id="bd28a3ea354c4135b9648cd8fc056d72" iid="0977590fc5f945798ef4e95a7296acbb" creation-date="11/27/2020 15:22:47" order-index="32" type="entity">
+            <layout ax="-871.5" ay="-527" awidth="1389.75" aheight="275" x="-871.5" y="-527" width="1389.75" height="275" rotation-center="-620.375,317.25" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
